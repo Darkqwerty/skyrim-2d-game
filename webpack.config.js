@@ -1,3 +1,4 @@
+/* eslint-disable indent */
 const path = require('path');
 const HTMLWebpackPlugin = require('html-webpack-plugin');
 
@@ -57,5 +58,5 @@ module.exports = {
         hot: true,
         historyApiFallback: true,
     },
-    devTool: NODE_ENV === 'development' ? 'source-map' : false,
+    devtool: NODE_ENV === 'development' ? 'source-map' : false,
 };
