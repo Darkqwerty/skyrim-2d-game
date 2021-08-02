@@ -9,6 +9,7 @@ class ClientGame {
         Object.assign(this, {
             cfg,
             gameObjects,
+            playerName: cfg.playerName,
             player: null,
         });
 
